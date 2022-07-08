@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import Logo from "../resources/images/logo.png";
 
 import ViewHeadlineIcon from "@material-ui/icons/ViewHeadline";

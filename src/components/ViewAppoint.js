@@ -24,9 +24,7 @@ class ViewAppoint extends Component {
 					const val = snapshot.val();
 
 					Object.keys(val).map((id) => {
-						if (val[id].email === user) {
-							dept = val[id].department;
-						}
+						return val[id].email === user ? (dept = val[id].department) : null;
 					});
 				}
 				fire
